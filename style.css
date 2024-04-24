@@ -1,0 +1,1712 @@
+/*CSS document*/
+
+body {
+    background-color: whitesmoke;
+}
+
+header{
+    background-color:  #202124;
+    position: fixed;
+    width: 100%;
+    top: 0em;
+    left: 0em;
+    padding-left: 2em;
+    padding-bottom: 1em;
+    box-shadow: 0px 2px 4px #7d7d7d(0, 0, 0, 0.1);
+    z-index: 2;
+}
+
+aside{
+    margin-top: 8em;
+}
+
+
+main{
+    margin-top: 10em;
+    padding-left: 3em;
+    padding-right: 3em;
+    padding-bottom: 3em;
+}
+
+main.home {
+  display: flex;
+  flex-wrap: wrap; /* Allows items to wrap onto multiple lines */
+  justify-content:center; /* Evenly spaces the items horizontally */
+  background-color: #121212;
+  padding: 0em;
+  padding-left: 2em;
+  padding-top: 2em;
+}
+
+main.home section.workboxes{
+  margin: 0em;
+  margin-right: 2em;
+  margin-bottom: 2em;
+}
+
+main.workfull{
+  display: flex;
+  flex-wrap: wrap; /* Allows items to wrap onto multiple lines */
+  justify-content:flex-start; /* Evenly spaces the items horizontally */
+  padding: 0em;
+  padding-left: 1em;
+  margin: 0em;
+  padding-top: 0em;
+  margin-top: 10em;
+}
+
+main.workfull h2{
+width: 15em;
+padding-right: 15em;
+padding-left: 0.5em;
+}
+
+main.workfull h4{
+  padding-left: 1em;
+  padding-bottom: 1em;
+}
+
+main.workfull .workboxes{
+  display: flex; /* Sets the initial size of each item to one-third of the container width minus spacing */
+  margin-bottom: 2em; /* Adds space between rows */
+  margin-right: 1em;
+}
+
+main .workboxes {
+  flex-basis: 14em; /* Sets the initial size of each item to one-third of the container width minus spacing */
+  margin-bottom: 1em; /* Adds space between rows */
+  margin-right: 0em;
+}
+
+div.container {
+    margin: auto;
+}
+
+h1 {
+    max-width: 1.5em;
+}
+
+figure {
+    margin: 0;
+    margin-top: 1em;
+    margin-bottom: 0em;
+}
+
+img {
+    width: 90%;
+}
+
+section.image img{
+    max-width: 7.5em;
+}
+
+section.imageshowdigs img{
+    max-width: 15em;
+}
+
+section.imagehonors img{
+    max-width: 10em;
+}
+
+section.imageiter8 img{
+    max-width: 10em;
+}
+
+  
+ul, ol {
+    margin: 0;
+    padding: 0;
+    font-family: "effra-cc-variable", sans-serif;
+    font-variation-settings: "wght" 300;
+    color: #292929;
+}
+  
+nav ul li {
+    margin: 0;
+    padding: 0;
+    display: inline;
+    list-style-type: none;
+    padding-left: 1em;
+    font-size: 15pt;
+  }
+
+footer{
+  padding-bottom: 0em;
+  margin-bottom: 0em;
+}
+
+footer p.footer2{
+  border-top: 1px solid whitesmoke;
+  margin: 1.5em;
+  padding: 1em;
+  font-size: 10pt;
+  color: whitesmoke;
+}
+
+footer p{
+  padding: 0em;
+  margin: 0em;
+}
+
+footer h1{
+  padding: 0em;
+  margin: 0em;
+  padding-left: 1em;
+  padding-top: 1em;
+}
+
+footer h1:hover {
+  transform: rotate(360deg); /* You can adjust the degree of rotation as needed */
+  transition: transform 1s ease; /* Smooth transition for the rotation effect */
+}
+
+footer li.email{
+  text-decoration: none;
+}
+
+footer li a{
+  color:#121212;
+}
+
+footer ul li{
+  margin: 0;
+  margin-left: 1em;
+    padding: 0;
+    display: inline;
+    list-style-type: none;
+    padding-left: 1em;
+    font-size: 12pt;
+    text-decoration: underline 2px #121212;
+}
+
+
+
+p {
+    font-family: "neue-haas-grotesk-display", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #292929;
+    letter-spacing: .5px;
+    word-spacing: 2px;
+    line-height: 1.5em;
+}
+
+p.footer {
+  font-family: "neue-haas-grotesk-display", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #292929;
+  letter-spacing: .5px;
+  word-spacing: 2px;
+  font-size: 10pt;
+  line-height: 1.5em;
+  padding: 2em;
+}
+
+a {
+    text-decoration: none;
+    color: whitesmoke;
+    font-family: "neue-haas-grotesk-display", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: 0.5px;
+}
+
+a:hover{
+    color: #4284f5;
+}
+
+h2 {
+    font-family: "neue-haas-grotesk-display", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color: #202124;
+    font-size: 25pt;
+    letter-spacing: 1.5px;
+}
+
+h3 {
+    font-family: "neue-haas-grotesk-display", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    color: #202124;
+    font-size: 20pt;
+    letter-spacing: 1.5px;
+    padding-top: 1.25em;
+}
+
+h4 {
+    font-family: "neue-haas-grotesk-display", sans-serif;
+    font-weight: 500;
+    font-style: italic;
+    color: #7d7d7d;
+    font-size: 14pt;
+    letter-spacing: 1.5px;
+    margin: 0em;
+    padding: 0em;
+}
+
+
+figcaption {
+    font-family: "effra-cc-variable", sans-serif;
+    font-variation-settings: "wght" 400;
+    font-style: italic;
+    font-size: 10.5pt;
+    color: #7d7d7d;
+    margin-bottom: 1em;
+}
+
+section.RoleDuration ul li{
+    font-family: "neue-haas-grotesk-display", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #292929;
+    letter-spacing: .5px;
+    word-spacing: 2px;
+    line-height: 1.5em;
+    margin-bottom: 20px;
+}
+
+ul.highlights{
+    font-family: "neue-haas-grotesk-display", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #292929;
+    letter-spacing: .5px;
+    word-spacing: 2px;
+    line-height: 1.5em;
+    margin-bottom: 20px;
+    list-style: none; /* Remove default bullet points */
+    padding-left: 20px; 
+}
+
+ul.highlights li {
+    margin-bottom: 10px; /* Add space after each bullet */
+    position: relative; /* Position for pseudo-element */
+  }
+
+ul.highlights li::before{
+content: '\2605'; /* Unicode for star */
+  color: #2c81fc; /* Yellow color for the star */
+  margin-right: 5px; /* Space between star and text */
+  position: absolute;
+  left: -20px
+}
+
+section.workcontainer{
+    margin-top: 3em;
+    background-color: whitesmoke;
+    padding: 0em 3em 3em 3em;
+    border-radius: 15px
+    border: 2px solid #000;
+    outline: 1px solid #7d7d7d;
+    border-radius: 10px; 
+}
+
+.skills {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px; /* Adjust the gap between items as needed */
+    padding: 0; /* Remove default padding from the list */
+    list-style-type: none; /* Remove default list styles */
+  }
+  
+  .skills li {
+    border: 1px solid #7d7d7d;
+    border-radius: 10px; /* Border for each item */
+    padding: 8px; /* Add padding inside each item */
+  }
+
+.list-wrapper {
+    position:relative;
+  }
+  .list-item-wrapper {
+    margin-top:20px;
+    position:relative;
+  }
+  .list-bullet {
+    float:left;
+    margin-top: 2px;
+    margin-right:20px;
+    background:#2c81fc;
+    height:15px;
+    width:15px;
+    line-height:20px;
+    border-radius:100px;
+  }
+  .list-bullet2 {
+    float:left;
+    margin-top: 2px;
+    margin-right:20px;
+    background:#84b4ff;
+    height:15px;
+    width:15px;
+    line-height:20px;
+    border-radius:100px;
+  }
+  .list-item {
+    display:table-row;
+    vertical-align:middle;
+  }
+  .list-title {
+    font-family: "neue-haas-grotesk-display", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #292929;
+    letter-spacing: .5px;
+    word-spacing: 2px;
+    margin-bottom: 5px;
+    margin-left: -10px;
+  }
+  .list-text {
+    font-family: "neue-haas-grotesk-display", sans-serif;
+    font-weight: 600;
+    font-style: italic;
+    color: #292929;
+    letter-spacing: .5px;
+    word-spacing: 2px;
+    line-height: 1.5em;
+    margin-bottom: 10px;
+    margin-left: -10px;
+  }
+  .red-line {
+    background:linear-gradient(#2c81fc, #84b4ff);
+    margin-top: 4px;
+    width: 2px;
+    height:5em;
+    position:absolute;
+    left: 7.15px;
+  }
+
+  section.image{
+    max-width: 60%;
+  }
+
+main.showdigs{
+    margin-top: 12em;
+}
+
+
+section.home_work{
+    margin-top: 1em;
+    border: none;
+    padding-bottom: 0em;
+    border-top: 1px solid #202124;
+    margin-bottom: 2em;
+}
+
+
+section.aboutwork{
+    background-color: #235066;
+}
+
+footer{
+    border: none;
+    border-top: 1px solid #ccc;
+    padding: none;
+    width: 100%;
+    margin: 0em;
+    background-color: #84b4ff;
+}
+
+a.learn-more-button {
+    display: inline-block;
+    padding: 5px 10px;
+    font-family: "neue-haas-grotesk-display", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    letter-spacing: 1px;
+    margin-top: 0.5em;
+    margin-right: 0.5em;
+    background-color: #cbdbf7; 
+    color: #2c81fc;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+a.learn-more-button:hover {
+    background-color: #2c81fc; 
+    color: #f5f5f5;
+}
+
+a.socialmedia {
+    display: inline-block;
+    padding: 5px 10px;
+    margin: 0.25em;
+    margin-bottom: 0.5em;
+    font-family: "neue-haas-grotesk-display", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    letter-spacing: 1px;
+    margin-top: 0em;
+    background-color: #cbdbf7; 
+    color: #2c81fc;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+a.socialmedia:hover{
+    background-color: #2c81fc; 
+    color: #f5f5f5;
+}
+
+
+p.span{
+    color: #3D8CB2;
+}
+
+aside.work{
+    background-color: #121212;
+    border:12px #121212;
+    border-radius: 10pt;
+    padding: 4em;
+    margin-top: 0em;
+}
+
+section.asidetitle h2{
+    text-align: center;
+    color: #121212;
+    margin: 0em;
+    margin-top: 2em;
+}
+section.asidetitle p{
+    color: #121212;
+    font-size: 40pt;
+    text-align: center;
+    margin: 0em;
+}
+@keyframes jumpAnimation {
+    0% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-20px);
+    }
+    100% {
+      transform: translateY(0);
+    }
+  }
+  
+  section.asidetitle p {
+    color: #121212;
+    font-size: 40pt;
+    text-align: center;
+    margin: 0.25em;
+    animation: jumpAnimation 1.7s ease infinite;
+  }
+
+  aside.work h3{
+    color: whitesmoke;
+  }
+
+  section.workboxes{
+    background-color: white;
+    border-radius: 10px;
+    padding: 1.5em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+  }
+
+  .workboxes h4{
+    padding-top: 2em;
+  }
+
+.workboxes video{
+  height: 10em;
+  width: auto;
+}
+  
+/* Dropdown Button */
+.dropbtn {
+    margin: 0;
+    padding: 0;
+    display: inline;
+    list-style-type: none;
+    padding-left: 1em;
+    font-size: 15pt;
+    text-decoration: none;
+    color: whitesmoke;
+    font-family: "neue-haas-grotesk-display", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: 0.5px;
+  }
+  
+  /* The container <div> - needed to position the dropdown content */
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #202124;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    color: #cbdbf7;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  /* Change color of dropdown links on hover */
+  .dropdown-content a:hover {
+    background-color: #2c81fc;}
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {
+    display: block;
+}
+  
+  /* Change the background color of the dropdown button when the dropdown content is shown */
+  .dropdown:hover .dropbtn {
+    background-color: none;
+}
+
+.workboxes {
+    position: relative;
+    transition: transform 0.3s ease; /* Smooth transition for the transform property */
+}
+
+.workboxes:hover {
+    transform: translateY(-8px); 
+}
+
+section.titlework2{
+    padding-top: 3em;
+    width: 55em;
+    padding-bottom: 4em;
+}
+
+section.titlework3{
+    padding-top: 3em;
+    padding-bottom: 2em;
+}
+
+h4 a.backbar{
+    color:#7d7d7d;
+    font-family: "neue-haas-grotesk-display", sans-serif;
+    font-weight: 500;
+    font-style: italic;
+    font-size: 14pt;
+    letter-spacing: 1.5px;
+    margin: 0em;
+    padding: 0em;
+}
+
+h4 a.backbar:hover{
+    color:#121212;
+    font-family: "neue-haas-grotesk-display", sans-serif;
+    font-weight: 500;
+    font-style: italic;
+    font-size: 14pt;
+    letter-spacing: 1.5px;
+    margin: 0em;
+    padding: 0em;
+}
+
+
+
+.img-box {
+  box-sizing: content-box;
+  height: 17em;
+  padding: 0.75em;
+  width: 17em;
+  overflow: hidden;
+  display: inline-block;
+  position: relative;
+  transition: transform 0.4s ease, box-shadow 0.4s ease;
+}
+
+.img-box video{
+  width: 17em;
+}
+
+.transparent-box-dignif img{
+  width: 3em;
+  height: auto;
+}
+
+.text-box {
+    box-sizing: content-box;
+    padding: 0.5em;
+    height: 20em;
+    width: 17em;
+    overflow: hidden;
+    display: flex;
+    position: relative;
+    transition: transform 0.4s ease, box-shadow 0.4s ease;
+  }
+
+  .text-box h3{
+   padding-top: 0.5em;
+   margin-top: 0em;
+  }
+
+
+.img-box:hover {
+  cursor: zoom-in;
+  transform: scale(150%);
+  z-index: 1;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);  
+  background-color: white;
+}
+
+.gallery-image-web {
+    padding: 0em;
+    margin-top: 0em;
+    margin-left: 0em;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+    padding-left: 0em;
+  }
+
+  .gallery-image-print img {
+    height: 100%; /* Adjusted height for the larger image size */
+    width: auto; /* Width will scale proportionally */
+    transform: scale(1.0);
+    transition: transform 0.4s ease;
+  }
+  
+  .gallery-image-web img {
+    height: 100%; /* Adjusted height for the larger image size */
+    width: auto; /* Width will scale proportionally */
+    transform: scale(1.0);
+    transition: transform 0.4s ease;
+  }
+
+  .img-box-honors {
+    box-sizing: content-box;
+    height: 15em; /* Adjusted height for the larger image size */
+    margin-bottom: 1.5em;
+    margin-right: 0em;
+    width: auto; /* Width will scale proportionally */
+    overflow: hidden;
+    display: inline-block;
+    position: relative;
+    transition: transform 0.4s ease, box-shadow 0.4s ease;
+  }
+  
+  .img-box-web {
+    box-sizing: content-box;
+    height: 9.5em; /* Adjusted height for the larger image size */
+    margin-bottom: 1.5em;
+    margin-right: 0em;
+    width: auto; /* Width will scale proportionally */
+    overflow: hidden;
+    display: inline-block;
+    position: relative;
+    transition: transform 0.4s ease, box-shadow 0.4s ease;
+  }
+  
+  .img-box-web:hover {
+    cursor: zoom-in;
+    transform: scale(120%);
+    z-index: 1;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    background-color: white;
+  }
+
+  .img-box-web_large {
+    box-sizing: content-box;
+    height: 3.5em; /* Adjusted height for the larger image size */
+    margin-bottom: 1.5em;
+    margin-right: 0em;
+    width: auto; /* Width will scale proportionally */
+    overflow: hidden;
+    display: inline-block;
+    position: relative;
+    transition: transform 0.4s ease, box-shadow 0.4s ease;
+  }
+  
+  .img-box-web_large:hover {
+    cursor: zoom-in;
+    transform: scale(125%);
+    z-index: 1;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    background-color: white;
+  }
+
+  .img-box-web-gif {
+    box-sizing: content-box;
+    height: 12em; /* Adjusted height for the larger image size */
+    margin-bottom: 1.5em;
+    margin-right: 0em;
+    margin-left: 0em;
+    width: auto; /* Width will scale proportionally */
+    overflow: hidden;
+    display: inline-block;
+    position: relative;
+    transition: transform 0.4s ease, box-shadow 0.4s ease;
+  }
+  
+  .img-box-web-gif:hover {
+    cursor: zoom-in;
+    transform: scale(125%);
+    z-index: 1;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    background-color: white;
+  }
+  
+
+  .text-box-web {
+    box-sizing: content-box;
+    width: 20em;
+    margin-top: 0em;
+    margin-right: 2em;
+    margin-bottom: 1em;
+    overflow: hidden;
+    display: flex;
+    position: relative;
+    transition: transform 0.4s ease, box-shadow 0.4s ease;
+  }
+
+  .text-box-honors {
+    box-sizing: content-box;
+    width: 45em;
+    margin-top: 0em;
+    padding-top: 1em;
+    margin-right: 0em;
+    margin-bottom: 1em;
+    padding-bottom: 1em;
+    overflow: hidden;
+    display: flex;
+    position: relative;
+    transition: transform 0.4s ease, box-shadow 0.4s ease;
+  }
+
+  .text-box-honors h3{
+    padding-top: 0em;
+    margin-top: 0em;
+  }
+
+  .text-box-dignif {
+    box-sizing: content-box;
+    width: 20em;
+    margin-top: 0em;
+    padding-top: 1em;
+    margin-right: 0em;
+    margin-bottom: 1em;
+    padding-bottom: 1em;
+    overflow: hidden;
+    display: flex;
+    position: relative;
+    transition: transform 0.4s ease, box-shadow 0.4s ease;
+  }
+
+  .text-box-iter82{
+    box-sizing: content-box;
+    width: 28em;
+    margin-top: 0em;
+    padding-top: 0em;
+    margin-right: 0em;
+    margin-bottom: 0em;
+    overflow: hidden;
+    display: flex;
+    position: relative;
+    transition: transform 0.4s ease, box-shadow 0.4s ease;
+  }
+
+  .text-box-iter82 img{
+    width: 20em;
+    height: auto;
+  }
+
+  .text-box-iter8 {
+    box-sizing: content-box;
+    width: 28em;
+    margin-top: 0em;
+    padding-top: 0em;
+    margin-right: 0em;
+    margin-bottom: 0em;
+    overflow: hidden;
+    display: flex;
+    position: relative;
+    transition: transform 0.4s ease, box-shadow 0.4s ease;
+  }
+
+  .text-box-iter8 img{
+    margin: 0em;
+    padding: 0em;
+    padding-top: 1em;
+    width: 20em;
+    height: auto;
+  }
+
+  .research-img{
+    width: 40%; /* Adjust as needed */
+    max-width: 25em;
+    margin-bottom: 2em;
+    padding-top: 5em;
+    height: auto; /* This ensures the image maintains its aspect ratio */
+  }
+
+  .research-img2{
+    max-width: 30em;
+    padding-top: 5em;
+    min-width: 20em;
+  }
+
+  
+
+  .text-box-web h3{
+   padding-top: 0em;
+   margin-top: 0em;
+  }
+
+  .text-box-dignif h3{
+    padding-top: 0em;
+    margin-top: 0em;
+   }
+
+  .text-box-calc h3{
+    padding-top: 0em;
+    margin-top: 0em;
+   }
+
+  .text-box-calc {
+    box-sizing: content-box;
+    width: 35em;
+    margin-top: 0em;
+    margin-right: 0em;
+    margin-bottom: 2em;
+    overflow: hidden;
+    display: flex;
+    position: relative;
+    transition: transform 0.4s ease, box-shadow 0.4s ease;
+  }
+
+  video{
+    height: 18em;
+    width: auto;
+  }
+
+  .img-box-calc {
+    box-sizing: content-box;
+    height: 12em; /* Adjusted height for the larger image size */
+    margin-bottom: 2em;
+    margin-right: 2em;
+    margin-left: 0em;
+    width: auto; /* Width will scale proportionally */
+    overflow: hidden;
+    display: inline-block;
+    position: relative;
+    transition: transform 0.4s ease, box-shadow 0.4s ease;
+  }
+  
+  .img-box-calc:hover {
+    cursor: zoom-in;
+    transform: scale(125%);
+    z-index: 1;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    background-color: white;
+  }
+
+  .img-box-data2{
+    padding-right: 2em;
+  }
+
+  .img-box-data {
+    box-sizing: content-box;
+    height: 12em; /* Adjusted height for the larger image size */
+    margin-bottom: 2em;
+    margin-right: 2em;
+    margin-left: 0em;
+    width: auto; /* Width will scale proportionally */
+    overflow: hidden;
+    display: inline-block;
+    position: relative;
+    transition: transform 0.4s ease, box-shadow 0.4s ease;
+  }
+  
+  .img-box-data:hover {
+    cursor: zoom-in;
+    transform: scale(125%);
+    z-index: 1;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    background-color: white;
+  }
+
+  .img-box-dignif {
+    box-sizing: content-box;
+    height: 13em; /* Adjusted height for the larger image size */
+    margin-bottom: 2em;
+    margin-right: 2em;
+    margin-left: 0em;
+    width: auto; /* Width will scale proportionally */
+    overflow: hidden;
+    display: inline-block;
+    position: relative;
+    transition: transform 0.4s ease, box-shadow 0.4s ease;
+  }
+  
+  .img-box-dignif:hover {
+    cursor: zoom-in;
+    transform: scale(125%);
+    z-index: 1;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    background-color: white;
+  }
+
+  .img-box-dignif3 {
+    box-sizing: content-box;
+    height: 17em; /* Adjusted height for the larger image size */
+    margin-bottom: 2em;
+    margin-right: 2em;
+    margin-left: 0em;
+    width: auto; /* Width will scale proportionally */
+    overflow: hidden;
+    display: inline-block;
+    position: relative;
+    transition: transform 0.4s ease, box-shadow 0.4s ease;
+  }
+
+  .img-box-dignif3:hover {
+    cursor: zoom-in;
+    transform: scale(110%);
+    z-index: 1;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    background-color: white;
+  }
+
+  .img-box-dignif2 {
+    box-sizing: content-box;
+    height: 13em; /* Adjusted height for the larger image size */
+    margin-bottom: 2em;
+    margin-right: 2em;
+    margin-left: 0em;
+    width: auto; /* Width will scale proportionally */
+    overflow: hidden;
+    display: inline-block;
+    position: relative;
+    transition: transform 0.4s ease, box-shadow 0.4s ease;
+  }
+  
+  .img-box-dignif2:hover {
+    cursor: zoom-in;
+    transform: scale(125%);
+    z-index: 1;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    background-color: white;
+  }
+
+
+  div.gallery-image-print h3{
+    margin-left: 0em;
+    padding-left: 0em;
+    padding-top: 2em;
+  }
+
+  .img-box-design-3 img{
+    box-sizing: content-box;
+    height: 15em; /* Adjusted height for the larger image size */
+    width: auto; /* Width will scale proportionally */
+    overflow: hidden;
+    display: inline-block;
+    position: relative;
+    transition: transform 0.4s ease, box-shadow 0.4s ease;
+  }
+
+  .img-box-design-3 {
+    box-sizing: content-box;
+    height: 15em; /* Adjusted height for the larger image size */
+    margin-top: 2em;
+    width: auto; /* Width will scale proportionally */
+    overflow: hidden;
+    display: inline-block;
+    position: relative;
+    transition: transform 0.4s ease, box-shadow 0.4s ease;
+  }
+
+
+  .img-box-design img{
+    box-sizing: content-box;
+    height: 15em; /* Adjusted height for the larger image size */
+    width: auto; /* Width will scale proportionally */
+    overflow: hidden;
+    display: inline-block;
+    position: relative;
+    transition: transform 0.4s ease, box-shadow 0.4s ease;
+  }
+
+  .img-box-design {
+    box-sizing: content-box;
+    height: 15em; /* Adjusted height for the larger image size */
+    margin-bottom: 2em;
+    margin-right: 3em;
+    margin-left: 2em;
+    width: auto; /* Width will scale proportionally */
+    overflow: hidden;
+    display: inline-block;
+    position: relative;
+    transition: transform 0.4s ease, box-shadow 0.4s ease;
+  }
+
+  .img-box-design:hover{
+    cursor: zoom-in;
+    transform: scale(125%);
+    z-index: 1;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    background-color: white;
+  }
+
+  .img-box-print-1 {
+    box-sizing: content-box;
+    height: 5em; /* Adjusted height for the larger image size */
+    margin-bottom: 2em;
+    margin-right: 3em;
+    margin-left: 0em;
+    width: auto; /* Width will scale proportionally */
+    overflow: hidden;
+    display: inline-block;
+    position: relative;
+    transition: transform 0.4s ease, box-shadow 0.4s ease;
+  }
+
+  .img-box-print-2 {
+    box-sizing: content-box;
+    height: 24em; /* Adjusted height for the larger image size */
+    margin-bottom: 2em;
+    margin-right: 3em;
+    margin-left: 0em;
+    width: auto; /* Width will scale proportionally */
+    overflow: hidden;
+    display: inline-block;
+    position: relative;
+    transition: transform 0.4s ease, box-shadow 0.4s ease;
+  }
+
+  .img-box-print-3 {
+    box-sizing: content-box;
+    height: 8em; /* Adjusted height for the larger image size */
+    margin-bottom: 2em;
+    margin-right: 3em;
+    margin-left: 0em;
+    width: auto; /* Width will scale proportionally */
+    overflow: hidden;
+    display: inline-block;
+    position: relative;
+    transition: transform 0.4s ease, box-shadow 0.4s ease;
+  }
+  
+  .img-box-print-4 {
+    box-sizing: content-box;
+    height: 28em; /* Adjusted height for the larger image size */
+    margin-bottom: 2em;
+    margin-right: 3em;
+    margin-left: 0em;
+    width: auto; /* Width will scale proportionally */
+    overflow: hidden;
+    display: inline-block;
+    position: relative;
+    transition: transform 0.4s ease, box-shadow 0.4s ease;
+  }
+
+  .img-box-print-5 {
+    box-sizing: content-box;
+    height: 19em; /* Adjusted height for the larger image size */
+    margin-bottom: 2em;
+    margin-right: 3em;
+    margin-left: 0em;
+    width: auto; /* Width will scale proportionally */
+    overflow: hidden;
+    display: inline-block;
+    position: relative;
+    transition: transform 0.4s ease, box-shadow 0.4s ease;
+  }
+
+
+  .img-box-print-1:hover {
+    cursor: zoom-in;
+    transform: scale(125%);
+    z-index: 1;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    background-color: white;
+  }
+
+  .img-box-print-2:hover {
+    cursor: zoom-in;
+    transform: scale(125%);
+    z-index: 1;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    background-color: white;
+  }
+
+  .img-box-print-3:hover {
+    cursor: zoom-in;
+    transform: scale(125%);
+    z-index: 1;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    background-color: white;
+  }
+
+  .img-box-print-4:hover {
+    cursor: zoom-in;
+    transform: scale(125%);
+    z-index: 1;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    background-color: white;
+  }
+
+  .img-box-print-5:hover {
+    cursor: zoom-in;
+    transform: scale(125%);
+    z-index: 1;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    background-color: white;
+  }
+
+  .text-box-print {
+    padding-top: 1em;
+    margin-top: 0em;
+    width: 32em;
+    margin-right: 0em;
+    margin-bottom: 2em;
+  }
+
+
+  .text-box-print h3{
+    padding-top: 1em;
+    margin-top: 0em;
+  }
+
+  object {
+    padding-top: 1em;
+    padding-bottom: 2em;
+  }
+
+.caption > p:nth-child(2) {
+  font-size: 0.8em;
+}
+
+.opacity-low {
+  opacity: 0.5;
+}
+
+section.showdigsgraphics{
+    background-color: #121212;
+}
+
+.img-box-iter8 img{
+  max-width: 20em;
+  height: auto;
+}
+
+.gravidagif{
+  max-width: 60em;
+}
+
+img.meettheteam{
+  width: 23em;
+  height: auto;
+  margin-right: 3em;
+  margin-top: 2em;
+}
+
+.img-box-video video{
+  height: 12em;
+  margin-bottom: 2em;
+}
+
+
+@media screen and (min-width: 60em){ 
+  main.workfull h2{
+    width: 25em;
+    padding-right: 15em;
+    padding-left: 0.5em;
+    }
+
+  aside.index{
+    margin-top: 9em;
+    max-height: 100em;
+  }
+
+  section.home_work{
+    max-height: 8em;
+  }
+
+  .img-box-video video{
+    height: 22em;
+    margin-bottom: 2em;
+  }
+
+  .img-box video{
+    width: 17em;
+  }
+
+  section.worktitle{
+    margin: 0em;
+    padding: 0em;
+    margin-top: 1em;
+    padding-right: 5em;
+  }
+
+  .text-box-dignif {
+    box-sizing: content-box;
+    width: 35em;
+    margin-top: 0em;
+    padding-top: 1em;
+    margin-right: 35em;
+    margin-bottom: 1em;
+    padding-bottom: 1em;
+    overflow: hidden;
+    display: flex;
+    position: relative;
+    transition: transform 0.4s ease, box-shadow 0.4s ease;
+  }
+
+  .img-box-data {
+    box-sizing: content-box;
+    height: 25em; /* Adjusted height for the larger image size */
+    margin-bottom: 2em;
+    margin-right: 2em;
+    margin-left: 0em;
+    width: auto; /* Width will scale proportionally */
+    overflow: hidden;
+    display: inline-block;
+    position: relative;
+    transition: transform 0.4s ease, box-shadow 0.4s ease;
+  }
+  
+  .img-box-data:hover {
+    cursor: zoom-in;
+    transform: scale(125%);
+    z-index: 1;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    background-color: white;
+  }
+
+  img.meettheteam{
+    width: 35em;
+    height: auto;
+    margin-right: 3em;
+    margin-top: 4em;
+  }
+  
+
+  .transparent-box img{
+    padding: 0em;
+    margin: 0em;
+    width: 5em;
+  }
+
+  .text-box-iter8 {
+    box-sizing: content-box;
+    width: 35em;
+    margin-top: 0em;
+    padding-top: 0em;
+    margin-right: 5em;
+    margin-bottom: 1em;
+    overflow: hidden;
+    display: flex;
+    position: relative;
+    transition: transform 0.4s ease, box-shadow 0.4s ease;
+  }
+
+  .text-box-iter8-r {
+    box-sizing: content-box;
+    width: 32em;
+    margin-top: 0em;
+    padding-top: 0em;
+    margin-right: 4em;
+    margin-bottom: 1em;
+    overflow: hidden;
+    display: flex;
+    position: relative;
+    transition: transform 0.4s ease, box-shadow 0.4s ease;
+  }
+
+  .text-box-none a{
+    text-decoration: underline;
+    color: #121212;
+  }
+
+  .text-box-none a:hover{
+    text-decoration: underline;
+    color: #2c81fc;
+  }
+
+  .text-box-none {
+    box-sizing: content-box;
+    width: 27em;
+    margin-top: 0em;
+    padding-top: 0em;
+    margin-right: 3em;
+    margin-bottom: 1em;
+    overflow: hidden;
+    display: flex;
+    position: relative;
+    transition: transform 0.4s ease, box-shadow 0.4s ease;
+  }
+
+  .text-box-none2{
+    margin-right: 5em;
+    box-sizing: content-box;
+  }
+  
+
+  .text-box-iter82{
+    box-sizing: content-box;
+    width: 50em;
+    margin-top: 0em;
+    padding-top: 0em;
+    margin-right: 0em;
+    margin-bottom: 0em;
+    overflow: hidden;
+    display: flex;
+    position: relative;
+    transition: transform 0.4s ease, box-shadow 0.4s ease;
+  }
+
+  .text-box-iter82 img{
+    width: 30em;
+    height: auto;
+  }
+
+
+  .text-box-iter8 img{
+   width: 70%;
+   padding: 0em;
+   margin: 0em;
+  }
+
+  .text-box-iter8-r img.ryde{
+    width: 20em;
+    height: auto;
+    padding: 0em;
+    margin: 0em;
+   }
+  
+
+
+  .img-box-iter8 {
+    box-sizing: content-box;
+    height: 18em; /* Adjusted height for the larger image size */
+    margin-bottom: 2em;
+    margin-top: 5em;
+    margin-right: 2em;
+    margin-left: 0em;
+    width: auto; /* Width will scale proportionally */
+    overflow: hidden;
+    display: inline-block;
+    position: relative;
+    transition: transform 0.4s ease, box-shadow 0.4s ease;
+  }
+  
+  .img-box-iter8:hover {
+    cursor: zoom-in;
+    transform: scale(125%);
+    z-index: 1;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    background-color: white;
+  }
+
+
+  .img-box-dignif {
+    box-sizing: content-box;
+    height: 17em; /* Adjusted height for the larger image size */
+    margin-bottom: 2em;
+    margin-right: 1em;
+    margin-left: 0em;
+    width: auto; /* Width will scale proportionally */
+    overflow: hidden;
+    display: inline-block;
+    position: relative;
+    transition: transform 0.4s ease, box-shadow 0.4s ease;
+  }
+  
+  .img-box-dignif:hover {
+    cursor: zoom-in;
+    transform: scale(160%);
+    z-index: 1;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    background-color: white;
+  }
+
+  .img-box-design-3 img{
+    box-sizing: content-box;
+    height: 30em; /* Adjusted height for the larger image size */
+    width: auto; /* Width will scale proportionally */
+    overflow: hidden;
+    display: inline-block;
+    position: relative;
+    transition: transform 0.4s ease, box-shadow 0.4s ease;
+  }
+
+  .img-box-design-3 {
+    box-sizing: content-box;
+    height: 30em; /* Adjusted height for the larger image size */
+    margin-top: 2em;
+    width: auto; /* Width will scale proportionally */
+    overflow: hidden;
+    display: inline-block;
+    position: relative;
+    transition: transform 0.4s ease, box-shadow 0.4s ease;
+  }
+
+
+    .text-box-print {
+        padding-top: 1em;
+        margin-top: 0em;
+        width: 32em;
+        margin-right: 38em;
+        margin-bottom: 2em;
+      }
+
+    object {
+max-width: 55em;      
+}
+
+    .img-box-print-2 {
+        box-sizing: content-box;
+        height: 30em; /* Adjusted height for the larger image size */
+        margin-bottom: 2em;
+        margin-right: 2em;
+        margin-left: 0em;
+        width: auto; /* Width will scale proportionally */
+        overflow: hidden;
+        display: inline-block;
+        position: relative;
+        transition: transform 0.4s ease, box-shadow 0.4s ease;
+      }
+
+    .img-box-print-3 {
+        box-sizing: content-box;
+        height: 20em; /* Adjusted height for the larger image size */
+        margin-bottom: 2em;
+        margin-right: 11em;
+        margin-left: 0em;
+        width: auto; /* Width will scale proportionally */
+        overflow: hidden;
+        display: inline-block;
+        position: relative;
+        transition: transform 0.4s ease, box-shadow 0.4s ease;
+      }
+
+      .img-box-print-4 {
+        box-sizing: content-box;
+        height: 25em; /* Adjusted height for the larger image size */
+        margin-bottom: 2em;
+        margin-right: 2em;
+        margin-left: 0em;
+        width: auto; /* Width will scale proportionally */
+        overflow: hidden;
+        display: inline-block;
+        position: relative;
+        transition: transform 0.4s ease, box-shadow 0.4s ease;
+      }
+
+      .img-box-print-5 {
+        box-sizing: content-box;
+        height: 28em; /* Adjusted height for the larger image size */
+        margin-bottom: 2em;
+        margin-right: 2em;
+        margin-left: 0em;
+        width: auto; /* Width will scale proportionally */
+        overflow: hidden;
+        display: inline-block;
+        position: relative;
+        transition: transform 0.4s ease, box-shadow 0.4s ease;
+      }
+
+    .img-box-print-1 {
+        box-sizing: content-box;
+        height: 15em; /* Adjusted height for the larger image size */
+        margin-bottom: 2em;
+        margin-right: 3em;
+        margin-left: 0em;
+        width: auto; /* Width will scale proportionally */
+        overflow: hidden;
+        display: inline-block;
+        position: relative;
+        transition: transform 0.4s ease, box-shadow 0.4s ease;
+      }
+
+    .text-box-calc {
+        box-sizing: content-box;
+        width: 35em;
+        margin-top: 0em;
+        margin-right: 25em;
+        margin-bottom: 2em;
+        overflow: hidden;
+        display: flex;
+        position: relative;
+        transition: transform 0.4s ease, box-shadow 0.4s ease;
+      }
+
+    .img-box-calc {
+        box-sizing: content-box;
+        height: 18em; /* Adjusted height for the larger image size */
+        margin-bottom: 2em;
+        margin-right: 2em;
+        margin-left: 0em;
+        width: auto; /* Width will scale proportionally */
+        overflow: hidden;
+        display: inline-block;
+        position: relative;
+        transition: transform 0.4s ease, box-shadow 0.4s ease;
+      }
+      
+      .img-box-calc:hover {
+        cursor: zoom-in;
+        transform: scale(125%);
+        z-index: 1;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+        background-color: white;
+      }
+
+    .img-box-web-gif {
+        box-sizing: content-box;
+        height: 22em; /* Adjusted height for the larger image size */
+        margin-bottom: 1.5em;
+        margin-right: 0em;
+        margin-left: 2em;
+        width: auto; /* Width will scale proportionally */
+        overflow: hidden;
+        display: inline-block;
+        position: relative;
+        transition: transform 0.4s ease, box-shadow 0.4s ease;
+      }
+      
+      .img-box-web-gif:hover {
+        cursor: zoom-in;
+        transform: scale(125%);
+        z-index: 1;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+        background-color: white;
+      }
+
+    .img-box-web_large {
+        box-sizing: content-box;
+        height: 9.5em; /* Adjusted height for the larger image size */
+        margin-bottom: 1.5em;
+        margin-right: 2em;
+        width: auto; /* Width will scale proportionally */
+        overflow: hidden;
+        display: inline-block;
+        position: relative;
+        transition: transform 0.4s ease, box-shadow 0.4s ease;
+      }
+      
+      .img-box-web_large:hover {
+        cursor: zoom-in;
+        transform: scale(125%);
+        z-index: 1;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+        background-color: white;
+      }
+
+
+    .gallery-image-web {
+        padding: 0em;
+        margin-top: 0em;
+        margin-left: 4em;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: left;
+      }
+      
+      .gallery-image-web img {
+        height: 100%; /* Adjusted height for the larger image size */
+        width: auto%; /* Width will scale proportionally */
+        transform: scale(1.0);
+        transition: transform 0.4s ease;
+      }
+      
+      .img-box-web {
+        box-sizing: content-box;
+        height: 9em; /* Adjusted height for the larger image size */
+        margin-bottom: 1.5em;
+        margin-right: 2em;
+        width: auto; /* Width will scale proportionally */
+        overflow: hidden;
+        display: inline-block;
+        position: relative;
+        transition: transform 0.4s ease, box-shadow 0.4s ease;
+      }
+      
+      .img-box-web:hover {
+        cursor: zoom-in;
+        transform: scale(200%);
+        z-index: 1;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+        background-color: white;
+      }
+
+    .next {
+        display: inline-block;
+        width: 50%; /* Custom width for section 1 */
+        vertical-align: top; /* Align sections at the top */
+    }
+    
+    .next2{
+        display: inline-block;
+        width: 45%; /* Custom width for section 2 */
+        margin-top: 23em;
+    }
+
+
+    .roleandskills{
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); /* Creates flexible columns */
+        gap: 20px; 
+    }
+    .work {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(400px, 1fr)); /* Creates flexible columns */
+        gap: 20px; /* Adjust the gap between items */
+    }
+    
+    .workboxes {
+        padding: 10px; /* Optional: Add padding for spacing */
+        text-align: left; /* Center-align content */
+    }
+
+    .red-line {
+        height:5em;
+      }
+
+    div.container {
+        display: grid;
+        grid-template-columns: 4fr 1fr;
+        grid-gap: 0 2em;
+        max-width: 80em;
+    }
+
+    header{
+        grid-column: 1/3;
+        padding-bottom: 1em;
+        /* background-color: red; */
+    }
+   
+    aside {
+        grid-column:  2/4;
+        display: grid;
+    }
+
+    section.aboutwork {
+        grid-column: 2/4;
+        grid-row: 1/3;
+        display: flex;
+        flex-direction: column;
+    }
+      
+    ul, ol {
+        margin: 0;
+        padding: 0;
+        margin: 0;
+        flex: 1;
+        line-height: 2em;
+      }
+    }
+
+
+
