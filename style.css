@@ -20,9 +20,6 @@ aside{
     margin-top: 8em;
 }
 
-.text-box-none .transparent-box p a{
-    color: #202124;
-}
 
 main{
     margin-top: 10em;
@@ -478,6 +475,7 @@ section.asidetitle p{
     text-align: center;
     margin: 0em;
 }
+
 @keyframes jumpAnimation {
     0% {
       transform: translateY(0);
@@ -515,8 +513,7 @@ section.asidetitle p{
   }
 
 .workboxes video{
-  height: 10em;
-  width: auto;
+  max-height: 8em;
 }
   
 /* Dropdown Button */
@@ -584,7 +581,6 @@ section.asidetitle p{
 
 section.titlework2{
     padding-top: 3em;
-    width: 55em;
     padding-bottom: 4em;
 }
 
@@ -619,13 +615,18 @@ h4 a.backbar:hover{
 
 .img-box {
   box-sizing: content-box;
-  height: 17em;
+  height: 15em;
   padding: 0.75em;
   width: 17em;
   overflow: hidden;
   display: inline-block;
   position: relative;
   transition: transform 0.4s ease, box-shadow 0.4s ease;
+}
+
+.img-box img{
+  height: 17em;
+  width: auto;
 }
 
 .img-box video{
@@ -637,12 +638,16 @@ h4 a.backbar:hover{
   height: auto;
 }
 
+.transparent-box p a{
+  color: #2c81fc;
+}
+
+
 .text-box {
     box-sizing: content-box;
-    padding: 0.5em;
-    height: 20em;
-    width: 17em;
     overflow: hidden;
+    max-width: 32em;
+    margin-bottom: 0.5em;
     display: flex;
     position: relative;
     transition: transform 0.4s ease, box-shadow 0.4s ease;
@@ -656,10 +661,14 @@ h4 a.backbar:hover{
 
 .img-box:hover {
   cursor: zoom-in;
-  transform: scale(150%);
+  transform: scale(120%);
   z-index: 1;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);  
   background-color: white;
+}
+
+.gallery-image{
+ margin-left: 1em;
 }
 
 .gallery-image-web {
@@ -712,7 +721,7 @@ h4 a.backbar:hover{
   
   .img-box-web:hover {
     cursor: zoom-in;
-    transform: scale(120%);
+    transform: scale(115%);
     z-index: 1;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
     background-color: white;
@@ -720,7 +729,7 @@ h4 a.backbar:hover{
 
   .img-box-web_large {
     box-sizing: content-box;
-    height: 3.5em; /* Adjusted height for the larger image size */
+    height: 2.5em; /* Adjusted height for the larger image size */
     margin-bottom: 1.5em;
     margin-right: 0em;
     width: auto; /* Width will scale proportionally */
@@ -762,10 +771,10 @@ h4 a.backbar:hover{
 
   .text-box-web {
     box-sizing: content-box;
-    width: 20em;
+    max-width: 28em;
     margin-top: 0em;
     margin-right: 2em;
-    margin-bottom: 1em;
+    margin-bottom: 2em;
     overflow: hidden;
     display: flex;
     position: relative;
@@ -793,7 +802,7 @@ h4 a.backbar:hover{
 
   .text-box-dignif {
     box-sizing: content-box;
-    width: 20em;
+    max-width: 50em;
     margin-top: 0em;
     padding-top: 1em;
     margin-right: 0em;
@@ -892,9 +901,14 @@ h4 a.backbar:hover{
     width: auto;
   }
 
+  .img-box-calc video{
+    height: 11em;
+    width: auto;
+  }
+
   .img-box-calc {
     box-sizing: content-box;
-    height: 12em; /* Adjusted height for the larger image size */
+    height: 11em; /* Adjusted height for the larger image size */
     margin-bottom: 2em;
     margin-right: 2em;
     margin-left: 0em;
@@ -982,20 +996,19 @@ h4 a.backbar:hover{
 
   .img-box-dignif2 {
     box-sizing: content-box;
-    height: 13em; /* Adjusted height for the larger image size */
+    height: 8em; /* Adjusted height for the larger image size */
     margin-bottom: 2em;
     margin-right: 2em;
     margin-left: 0em;
     width: auto; /* Width will scale proportionally */
-    overflow: hidden;
-    display: inline-block;
+    display: flex;
     position: relative;
     transition: transform 0.4s ease, box-shadow 0.4s ease;
   }
   
   .img-box-dignif2:hover {
     cursor: zoom-in;
-    transform: scale(125%);
+    transform: scale(120%);
     z-index: 1;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
     background-color: white;
@@ -1217,10 +1230,32 @@ img.meettheteam{
 .img-box-video video{
   height: 12em;
   margin-bottom: 2em;
+  margin-top: 1em;
+}
+
+.text-box-none p a{
+  text-decoration: underline;
+  color: #121212;
+}
+
+.text-box-none a:hover{
+  text-decoration: underline;
+  color: #2c81fc;
 }
 
 
+
+
 @media screen and (min-width: 60em){ 
+
+  .workboxes video{
+    max-height: 12em;
+  }
+
+  .img-box-dignif2{
+    height: 13em;
+  }
+
   main.workfull h2{
     width: 25em;
     padding-right: 15em;
@@ -1325,16 +1360,6 @@ img.meettheteam{
     display: flex;
     position: relative;
     transition: transform 0.4s ease, box-shadow 0.4s ease;
-  }
-
-  .text-box-none a{
-    text-decoration: underline;
-    color: #121212;
-  }
-
-  .text-box-none a:hover{
-    text-decoration: underline;
-    color: #2c81fc;
   }
 
   .text-box-none {
@@ -1545,6 +1570,11 @@ max-width: 55em;
         transition: transform 0.4s ease, box-shadow 0.4s ease;
       }
 
+      .img-box-calc video{
+        height: 18em;
+        width: auto;
+      }
+
     .img-box-calc {
         box-sizing: content-box;
         height: 18em; /* Adjusted height for the larger image size */
@@ -1590,8 +1620,9 @@ max-width: 55em;
     .img-box-web_large {
         box-sizing: content-box;
         height: 9.5em; /* Adjusted height for the larger image size */
-        margin-bottom: 1.5em;
-        margin-right: 2em;
+        margin-bottom: 4em;
+        margin-right: 0em;
+        margin-left: 1em;
         width: auto; /* Width will scale proportionally */
         overflow: hidden;
         display: inline-block;
@@ -1601,7 +1632,7 @@ max-width: 55em;
       
       .img-box-web_large:hover {
         cursor: zoom-in;
-        transform: scale(125%);
+        transform: scale(120%);
         z-index: 1;
         box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
         background-color: white;
@@ -1628,9 +1659,9 @@ max-width: 55em;
         box-sizing: content-box;
         height: 9em; /* Adjusted height for the larger image size */
         margin-bottom: 1.5em;
-        margin-right: 2em;
+        margin-right: 1em;
+        padding: 0.5em;
         width: auto; /* Width will scale proportionally */
-        overflow: hidden;
         display: inline-block;
         position: relative;
         transition: transform 0.4s ease, box-shadow 0.4s ease;
@@ -1638,7 +1669,7 @@ max-width: 55em;
       
       .img-box-web:hover {
         cursor: zoom-in;
-        transform: scale(200%);
+        transform: scale(120%);
         z-index: 1;
         box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
         background-color: white;
