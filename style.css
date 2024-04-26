@@ -20,6 +20,9 @@ aside{
     margin-top: 8em;
 }
 
+.text-box-none .transparent-box p a{
+    color: #202124;
+}
 
 main{
     margin-top: 10em;
