@@ -522,7 +522,7 @@ max-height: 8em;
 }
 
 aside.work .workboxes{
-  min-width: 18em;
+  min-width: 15em;
 }
 
 /* Dropdown Button */
@@ -1549,7 +1549,8 @@ img.meettheteam{
     }
 
   object {
-max-width: 55em;      
+    min-width: 8em;
+max-width: 40em;      
 }
 
   .img-box-print-2 {
