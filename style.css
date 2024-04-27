@@ -24,6 +24,8 @@ aside{
   color: #202124;
 }
 
+
+
 main{
   margin-top: 10em;
   padding-left: 3em;
@@ -1119,6 +1121,11 @@ div.gallery-image-print h3{
   transition: transform 0.4s ease, box-shadow 0.4s ease;
 }
 
+.img-box-print-1 img{
+  height: 5em;
+  width: auto;
+}
+
 .img-box-print-2 {
   box-sizing: content-box;
   height: 24em; /* Adjusted height for the larger image size */
@@ -1130,6 +1137,11 @@ div.gallery-image-print h3{
   display: inline-block;
   position: relative;
   transition: transform 0.4s ease, box-shadow 0.4s ease;
+}
+
+.img-box-print-2 img{
+  height: 24em;
+  width: auto;
 }
 
 .img-box-print-3 {
@@ -1145,6 +1157,11 @@ div.gallery-image-print h3{
   transition: transform 0.4s ease, box-shadow 0.4s ease;
 }
 
+.img-box-print-3 img{
+  height: 8em;
+  width: auto;
+}
+
 .img-box-print-4 {
   box-sizing: content-box;
   height: 28em; /* Adjusted height for the larger image size */
@@ -1158,6 +1175,11 @@ div.gallery-image-print h3{
   transition: transform 0.4s ease, box-shadow 0.4s ease;
 }
 
+.img-box-print-4 img{
+  height: 28em;
+  width: auto;
+}
+
 .img-box-print-5 {
   box-sizing: content-box;
   height: 19em; /* Adjusted height for the larger image size */
@@ -1169,6 +1191,11 @@ div.gallery-image-print h3{
   display: inline-block;
   position: relative;
   transition: transform 0.4s ease, box-shadow 0.4s ease;
+}
+
+.img-box-print-5 img{
+  height: 19em;
+  width: auto;
 }
 
 
