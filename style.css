@@ -971,6 +971,11 @@ video{
   transition: transform 0.4s ease, box-shadow 0.4s ease;
 }
 
+.img-box-data img{
+  height: 12em;
+  width: auto;
+}
+
 .img-box-data:hover {
   cursor: zoom-in;
   transform: scale(125%);
