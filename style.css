@@ -519,6 +519,10 @@ section.workboxes{
 max-height: 8em;
 }
 
+aside.work .workboxes{
+  min-width: 18em;
+}
+
 /* Dropdown Button */
 .dropbtn {
   margin: 0;
