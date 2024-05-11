@@ -1066,6 +1066,7 @@ video{
 }
 
 .img-box-data img{
+  margin-top: 2em;
   height: 12em;
   width: auto;
 }
@@ -1560,25 +1561,10 @@ section.worktitle{
   transition: transform 0.4s ease, box-shadow 0.4s ease;
 }
 
-.img-box-data {
-  box-sizing: content-box;
-  height: 25em; /* Adjusted height for the larger image size */
-  margin-bottom: 2em;
-  margin-right: 2em;
-  margin-left: 0em;
-  width: auto; /* Width will scale proportionally */
-  overflow: hidden;
-  display: inline-block;
-  position: relative;
-  transition: transform 0.4s ease, box-shadow 0.4s ease;
-}
-
-.img-box-data:hover {
-  cursor: zoom-in;
-  transform: scale(125%);
-  z-index: 1;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-  background-color: white;
+.img-box-data img{
+  margin-top: 2em;
+  height: 20em;
+  width: auto;
 }
 
 img.meettheteam{
