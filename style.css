@@ -1134,6 +1134,10 @@ video{
   transition: transform 0.4s ease, box-shadow 0.4s ease;
 }
 
+.img-box-dignif-2 h4{
+  margin-right: 1em;
+}
+
 .img-box-about {
   box-sizing: content-box;
   height: 8em; /* Adjusted height for the larger image size */
