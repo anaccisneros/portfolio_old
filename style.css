@@ -797,7 +797,7 @@ background-color: white;
 .gallery-image-web {
   padding: 0em;
   margin-top: 0em;
-  margin-left: 2em;
+  margin-left: 1em;
   display: flex;
   flex-wrap: wrap;
   justify-content: left;
@@ -1442,7 +1442,7 @@ div.contact2{
 
  .contact2 img{
   height: 1em;
-  width: 1em;
+  width: auto;
   padding: 0em;
   margin: 0em;
 }
