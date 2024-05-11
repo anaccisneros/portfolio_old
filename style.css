@@ -1220,7 +1220,7 @@ div.gallery-image-print h3{
 .img-box-print-1 {
   box-sizing: content-box;
   height: 5em; /* Adjusted height for the larger image size */
-  margin-bottom: 2em;
+  margin-bottom: 1em;
   margin-right: 3em;
   margin-left: 0em;
   width: auto; /* Width will scale proportionally */
@@ -1238,7 +1238,7 @@ div.gallery-image-print h3{
 .img-box-print-2 {
   box-sizing: content-box;
   height: 24em; /* Adjusted height for the larger image size */
-  margin-bottom: 2em;
+  margin-bottom: 1em;
   margin-right: 3em;
   margin-left: 0em;
   width: auto; /* Width will scale proportionally */
@@ -1256,7 +1256,7 @@ div.gallery-image-print h3{
 .img-box-print-3 {
   box-sizing: content-box;
   height: 8em; /* Adjusted height for the larger image size */
-  margin-bottom: 2em;
+  margin-bottom: 1em;
   margin-right: 3em;
   margin-left: 0em;
   width: auto; /* Width will scale proportionally */
@@ -1274,7 +1274,7 @@ div.gallery-image-print h3{
 .img-box-print-4 {
   box-sizing: content-box;
   height: 28em; /* Adjusted height for the larger image size */
-  margin-bottom: 2em;
+  margin-bottom: 1em;
   margin-right: 3em;
   margin-left: 0em;
   width: auto; /* Width will scale proportionally */
@@ -1292,7 +1292,7 @@ div.gallery-image-print h3{
 .img-box-print-5 {
   box-sizing: content-box;
   height: 19em; /* Adjusted height for the larger image size */
-  margin-bottom: 2em;
+  margin-bottom: 1em;
   margin-right: 3em;
   margin-left: 0em;
   width: auto; /* Width will scale proportionally */
@@ -1732,13 +1732,13 @@ img.meettheteam{
 
   object {
     min-width: 8em;
-max-width: 40em;      
+    max-width: 40em;      
 }
 
   .img-box-print-2 {
       box-sizing: content-box;
       height: 30em; /* Adjusted height for the larger image size */
-      margin-bottom: 2em;
+      margin-bottom: 1em;
       margin-right: 2em;
       margin-left: 0em;
       width: auto; /* Width will scale proportionally */
@@ -1751,7 +1751,7 @@ max-width: 40em;
   .img-box-print-3 {
       box-sizing: content-box;
       height: 20em; /* Adjusted height for the larger image size */
-      margin-bottom: 2em;
+      margin-bottom: 1em;
       margin-right: 11em;
       margin-left: 0em;
       width: auto; /* Width will scale proportionally */
@@ -1764,7 +1764,7 @@ max-width: 40em;
     .img-box-print-4 {
       box-sizing: content-box;
       height: 25em; /* Adjusted height for the larger image size */
-      margin-bottom: 2em;
+      margin-bottom: 1em;
       margin-right: 2em;
       margin-left: 0em;
       width: auto; /* Width will scale proportionally */
@@ -1777,7 +1777,7 @@ max-width: 40em;
     .img-box-print-5 {
       box-sizing: content-box;
       height: 28em; /* Adjusted height for the larger image size */
-      margin-bottom: 2em;
+      margin-bottom: 1em;
       margin-right: 2em;
       margin-left: 0em;
       width: auto; /* Width will scale proportionally */
@@ -1790,7 +1790,7 @@ max-width: 40em;
   .img-box-print-1 {
       box-sizing: content-box;
       height: 15em; /* Adjusted height for the larger image size */
-      margin-bottom: 2em;
+      margin-bottom: 1em;
       margin-right: 3em;
       margin-left: 0em;
       width: auto; /* Width will scale proportionally */
