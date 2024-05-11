@@ -1440,6 +1440,13 @@ div.contact2{
   margin-right: 0em;
 }
 
+ .contact2 img{
+  height: 1em;
+  width: 1em;
+  padding: 0em;
+  margin: 0em;
+}
+
 .iframes{
   margin-top: 2em;
   margin-left: 1em;
@@ -1456,28 +1463,29 @@ div.contact2{
   padding-bottom: 0em;
 }
 
-.contact2 img{
-  max-width: 1em;
-  margin: 0em;
-  padding: 0em;
-}
 
 .contact h2{
-  font-size: 16pt;
+  font-size: 15pt;
   margin-bottom: 1em;
 }
 
 .contact2 h2{
   color: #2967b2;
-  font-size: 16pt;
+  font-size: 15pt;
 }
 
 @media screen and (min-width: 60em){ 
 
+
+ .contact2 img{
+  max-width: 1em;
+  padding: 0em;
+  margin: 0em;
+}
+
   .transparent-box-contact{
     margin-right: 5em;
   }
-  
 
   main.home{
     padding-left: 2em;
@@ -1491,15 +1499,22 @@ div.contact2{
   
   .contact h2{
     font-size: 25pt;
+    margin-right: 2em;
   }
 
   .contact h3{
-    margin-left: 0.5em;
+    margin-left: 1em;
     margin-bottom: 2em;
+    margin-right: 2em;
   }
 
   .contact2 h2{
     font-size: 25pt;
+  }
+
+  .contact2 h3{
+    margin-left: 1em;
+    margin-bottom: 2em;
   }
 
 
