@@ -936,7 +936,7 @@ background-color: white;
 
 .text-box-dignif {
   box-sizing: content-box;
-  max-width: 50em;
+  max-width: 45em;
   margin-top: 0em;
   padding-top: 0em;
   margin-right: 0em;
@@ -1134,10 +1134,6 @@ video{
   transition: transform 0.4s ease, box-shadow 0.4s ease;
 }
 
-.img-box-dignif-2 h4{
-  margin-right: 1em;
-}
-
 .img-box-about {
   box-sizing: content-box;
   height: 8em; /* Adjusted height for the larger image size */
@@ -1235,7 +1231,7 @@ div.gallery-image-print h3{
 .img-box-print-2 {
   box-sizing: content-box;
   height: 24em; /* Adjusted height for the larger image size */
-  margin-bottom: 1em;
+  margin-bottom: 0em;
   margin-right: 3em;
   margin-left: 0em;
   width: auto; /* Width will scale proportionally */
@@ -1289,7 +1285,7 @@ div.gallery-image-print h3{
 .img-box-print-5 {
   box-sizing: content-box;
   height: 19em; /* Adjusted height for the larger image size */
-  margin-bottom: 1em;
+  margin-bottom: 0em;
   margin-right: 3em;
   margin-left: 0em;
   width: auto; /* Width will scale proportionally */
@@ -1546,7 +1542,7 @@ section.worktitle{
 
 .text-box-dignif {
   box-sizing: content-box;
-  width: 35em;
+  width: 45em;
   margin-top: 0em;
   padding-top: 0em;
   margin-right: 35em;
@@ -1729,13 +1725,13 @@ img.meettheteam{
 
   object {
     min-width: 8em;
-    max-width: 40em;      
+    max-width: 50em;      
 }
 
   .img-box-print-2 {
       box-sizing: content-box;
       height: 30em; /* Adjusted height for the larger image size */
-      margin-bottom: 1em;
+      margin-bottom: 0em;
       margin-right: 2em;
       margin-left: 0em;
       width: auto; /* Width will scale proportionally */
@@ -1774,7 +1770,7 @@ img.meettheteam{
     .img-box-print-5 {
       box-sizing: content-box;
       height: 28em; /* Adjusted height for the larger image size */
-      margin-bottom: 1em;
+      margin-bottom: 0em;
       margin-right: 2em;
       margin-left: 0em;
       width: auto; /* Width will scale proportionally */
