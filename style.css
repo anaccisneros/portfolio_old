@@ -433,6 +433,10 @@ section.aboutwork{
   background-color: #235066;
 }
 
+main.aboutthework{
+padding-top: 2em;
+}
+
 main.aboutthework iframe{
   margin: 0em;
   padding: 0em;
@@ -648,6 +652,7 @@ max-height: 8em;
   transform: translateY(-8px); 
 }
 
+
 section.titlework2{
   padding-top: 3em;
   padding-bottom: 4em;
@@ -658,8 +663,10 @@ section.titlework3{
 }
 
 section.titlework3 a{
-  margin-left: 1em;
+  margin-left: 0em;
   padding-bottom: em;
+  margin-top: 0em;
+  margin-bottom: 2em;
 }
 
 section.titlework3 h4{
@@ -1475,6 +1482,15 @@ div.contact2{
 
 @media screen and (min-width: 60em){ 
 
+  h2{
+    margin-left: 0.5em;
+  }
+
+  .titlework3 a.socialmedia{
+    margin-left: 2em;
+  }
+
+ 
   .gallery-image-web {
     padding: 0em;
     margin-top: 0em;
