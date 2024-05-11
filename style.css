@@ -1476,6 +1476,15 @@ div.contact2{
 
 @media screen and (min-width: 60em){ 
 
+  .gallery-image-web {
+    padding: 0em;
+    margin-top: 0em;
+    margin-left: 3em;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+    padding-left: 0em;
+  }
 
  .contact2 img{
   max-width: 1em;
@@ -1651,6 +1660,10 @@ img.meettheteam{
   transition: transform 0.4s ease, box-shadow 0.4s ease;
 }
 
+.text-box-iter8-r li{
+  margin-left: 1em;
+}
+
 .text-box-none {
   box-sizing: content-box;
   width: 32em;
@@ -1694,14 +1707,6 @@ img.meettheteam{
  padding: 0em;
  margin: 0em;
 }
-
-.text-box-iter8-r img.ryde{
-  width: 20em;
-  height: auto;
-  padding: 0em;
-  margin: 0em;
- }
-
 
 
 .img-box-iter8 {
