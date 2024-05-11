@@ -1017,18 +1017,6 @@ background-color: white;
   margin-top: 0em;
  }
 
-.text-box-calc {
-  box-sizing: content-box;
-  width: 35em;
-  margin-top: 0em;
-  margin-right: 0em;
-  margin-bottom: 2em;
-  overflow: hidden;
-  display: flex;
-  position: relative;
-  transition: transform 0.4s ease, box-shadow 0.4s ease;
-}
-
 video{
   height: 18em;
   width: auto;
@@ -1870,9 +1858,9 @@ max-width: 40em;
 
   .text-box-calc {
       box-sizing: content-box;
-      width: 35em;
+      width: 45em;
       margin-top: 0em;
-      margin-right: 25em;
+      margin-right: 2em;
       margin-bottom: 2em;
       overflow: hidden;
       display: flex;
