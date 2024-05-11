@@ -227,7 +227,7 @@ h2 {
   color: #202124;
   font-size: 25pt;
   letter-spacing: 1.5px;
-  margin-left: 0.5em;
+  margin-left: 0em;
 }
 
 h3 {
@@ -655,7 +655,6 @@ section.titlework2{
 
 section.titlework3{
   margin-left: 1em;
-  padding-bottom: em;
 }
 
 section.titlework3 a{
