@@ -24,9 +24,6 @@ aside{
   color: #202124;
 }
 
-
-
-
 main{
   margin-top: 10em;
   padding-left: 0em;
@@ -64,8 +61,6 @@ margin-right: 2em;
   margin: 0em;
   padding-top: 1em;
 }
-
-
 
 main.workfull{
 display: flex;
@@ -123,7 +118,6 @@ section.imagehonors img{
 section.imageiter8 img{
   max-width: 10em;
 }
-
 
 ul, ol {
   margin: 0;
@@ -190,8 +184,6 @@ margin-left: 1em;
   font-size: 12pt;
   text-decoration: underline 2px #121212;
 }
-
-
 
 p {
   font-family: "neue-haas-grotesk-display", sans-serif;
@@ -372,7 +364,7 @@ padding-bottom: 2em;
   background:#2c81fc;
   height:15px;
   width:15px;
-  line-height:20px;
+  line-height:25px;
   border-radius:100px;
 }
 .list-bullet2 {
@@ -759,6 +751,19 @@ margin-bottom: 3em;
 }
 
 
+.transparent-box-contact{
+  max-width: 40em;
+  margin-top: 0em;
+  margin-right: 0em;
+  margin-left: 1em;
+}
+
+.transparent-box-contact p a{
+color: #2c81fc;
+margin-bottom: 3em;
+}
+
+
 .text-box {
   box-sizing: content-box;
   overflow: hidden;
@@ -792,7 +797,7 @@ background-color: white;
 .gallery-image-web {
   padding: 0em;
   margin-top: 0em;
-  margin-left: 4em;
+  margin-left: 2em;
   display: flex;
   flex-wrap: wrap;
   justify-content: left;
@@ -1423,16 +1428,16 @@ color: #2c81fc;
 div.contact{
   padding: 0em;
   margin: 0em;
-  margin-top: 2em;
-  margin-right: 7em;
+  margin-top: 0em;
+  margin-right: 0em;
 }
 
 div.contact2{
   padding: 0em;
   margin: 0em;
-  margin-top: 2em;
-  margin-bottom: 2em;
-  margin-right: 15em;
+  margin-top: 0em;
+  margin-bottom: 0em;
+  margin-right: 0em;
 }
 
 .iframes{
@@ -1440,12 +1445,26 @@ div.contact2{
   margin-left: 1em;
 }
 
+.iframes2{
+  margin-top: 1em;
+  margin-left: 3em;
+  margin-bottom: 0em;
+}
+.iframes2 iframe{
+  margin-top: 1em;
+  margin-bottom: 0em;
+  padding-bottom: 0em;
+}
+
 .contact2 img{
   max-width: 1em;
+  margin: 0em;
+  padding: 0em;
 }
 
 .contact h2{
   font-size: 16pt;
+  margin-bottom: 1em;
 }
 
 .contact2 h2{
@@ -1454,6 +1473,10 @@ div.contact2{
 }
 
 @media screen and (min-width: 60em){ 
+
+  .transparent-box-contact{
+    margin-right: 5em;
+  }
   
 
   main.home{
@@ -1469,10 +1492,16 @@ div.contact2{
   .contact h2{
     font-size: 25pt;
   }
-  
+
+  .contact h3{
+    margin-left: 0.5em;
+    margin-bottom: 2em;
+  }
+
   .contact2 h2{
     font-size: 25pt;
   }
+
 
   main.home section.workcontainer{
     margin: 0em;
@@ -1487,6 +1516,10 @@ div.contact2{
     outline: 1px solid #7d7d7d;
     border-radius: 10px;
   }
+
+.home .workboxes{
+  margin-left: 0em;
+}
 
 .workboxes_workfull{
   min-width: 75em;
