@@ -792,7 +792,7 @@ background-color: white;
 .gallery-image-web {
   padding: 0em;
   margin-top: 0em;
-  margin-left: 3em;
+  margin-left: 4em;
   display: flex;
   flex-wrap: wrap;
   justify-content: left;
@@ -1437,8 +1437,7 @@ div.contact2{
 
 .iframes{
   margin-top: 2em;
-  margin-left: 0em;
-  margin-left: 5em;
+  margin-left: 1em;
 }
 
 .contact2 img{
@@ -1862,24 +1861,7 @@ max-width: 40em;
       box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
       background-color: white;
     }
-
-
-  .gallery-image-web {
-      padding: 0em;
-      margin-top: 0em;
-      margin-left: 4em;
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: left;
-    }
-    
-    .gallery-image-web img {
-      height: 100%; /* Adjusted height for the larger image size */
-      width: auto%; /* Width will scale proportionally */
-      transform: scale(1.0);
-      transition: transform 0.4s ease;
-    }
-    
+  
     .img-box-web {
       box-sizing: content-box;
       height: 15em; /* Adjusted height for the larger image size */
