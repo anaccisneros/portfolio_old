@@ -413,7 +413,7 @@ margin-top: 2em;
   background:linear-gradient(#2c81fc, #84b4ff);
   margin-top: 4px;
   width: 2px;
-  height: 6em;
+  height: 5.5em;
   position:absolute;
   left: 7.15px;
 }
@@ -794,6 +794,8 @@ margin-bottom: 3em;
 
 .text-box p{
   margin-top: 0em;
+  margin-bottom: 0em;
+  padding-bottom: 0em;
 }
 
 /* 
@@ -1144,7 +1146,7 @@ video{
   height: 7.5em; /* Adjusted height for the larger image size */
   margin-bottom: 2em;
   margin-right: 0em;
-  margin-left: 1em;
+  margin-left: 1.5em;
   width: auto; /* Width will scale proportionally */
   display: flex;
   position: relative;
