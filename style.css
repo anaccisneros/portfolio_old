@@ -36,7 +36,7 @@ display: flex;
 flex-wrap: wrap; /* Allows items to wrap onto multiple lines */
 justify-content: left; /* Evenly spaces the items horizontally */
 background-color: whitesmoke;
-padding-left: 0.5em;
+padding-left: 0.75em;
 }
 
 main.home h2{
@@ -48,7 +48,7 @@ text-align: left;
 
 main.home section.workboxes{
 margin-bottom: 2em;
-margin-right: 2em;
+margin-right: 1em;
 }
 
 .workboxes iframe{
@@ -305,7 +305,7 @@ main.home section.workcontainer{
   background-color: white;
   padding: 0em 1em 0em 1em;
   margin-bottom: 3em;
-  max-width: 18em;
+  max-width: 20em;
   border-radius: 25px
   border: 2px solid #000;
   outline: 1px solid #7d7d7d;
@@ -413,7 +413,7 @@ padding-bottom: 2em;
   background:linear-gradient(#2c81fc, #84b4ff);
   margin-top: 4px;
   width: 2px;
-  height: 5.5em;
+  height: 6em;
   position:absolute;
   left: 7.15px;
 }
@@ -566,7 +566,8 @@ section.workboxes{
   border-radius: 17px;
   padding: 1em;
   padding-bottom: 2em;
-  padding-top: 0.5em;
+  padding-top: 1em;
+  padding-right: 1em;
   margin-top: 1em;
   margin-bottom: 0em;
   max-height: auto;
@@ -1910,9 +1911,6 @@ img.meettheteam{
       text-align: left; /* Center-align content */
   }
 
-  .red-line {
-      height: 5.75em;
-    }
 
   header{
       grid-column: 1/3;
