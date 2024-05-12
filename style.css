@@ -1374,6 +1374,7 @@ color: #2c81fc;
 .learn-more-button h3 {
   cursor: pointer; /* Change cursor to pointer on hover */
   animation: bounce 1.5s infinite alternate; /* Apply the infinite bounce animation with a duration of 0.5 seconds and alternate direction */
+  margin-left: -1em;
 }
 
 div.contact{
