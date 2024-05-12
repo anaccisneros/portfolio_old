@@ -36,7 +36,7 @@ display: flex;
 flex-wrap: wrap; /* Allows items to wrap onto multiple lines */
 justify-content: left; /* Evenly spaces the items horizontally */
 background-color: whitesmoke;
-padding-left: 0.5em;
+padding-left: 1em;
 }
 
 main.home h2{
@@ -52,7 +52,7 @@ margin-right: 2em;
 }
 
 .workboxes iframe{
-  min-width: 13em;
+  min-width: 12em;
 }
 
 .workboxes img{
@@ -303,16 +303,17 @@ main.home section.workcontainer{
   margin: 0em;
   margin-top: 2em;
   background-color: white;
-  padding-left: 1em;
+  padding: 0em 1em 0em 1em;
   margin-bottom: 3em;
-  max-width: 40em;
-  border-radius: 15px
+  max-width: 25em;
+  border-radius: 25px
   border: 2px solid #000;
   outline: 1px solid #7d7d7d;
+  border-radius: 10px;
 }
 
 .workcontainer p{
-  max-width: 40em;
+  max-width: 45em;
 }
 
 section.workcontainer h3{
@@ -327,14 +328,18 @@ section.workcontainer h3{
 
 .workboxes_workfull .workboxes {
   flex: 1 1 calc(40% - 20px); /* Adjust the width of each box as needed */
-  max-width: 20em;
+  max-width: 18em;
 padding: 1em;
 padding-bottom: 2em;
 }
 
 
 .workboxes_workfull .workboxes img{
-  min-width: 15em;
+  min-width: 17em;
+}
+
+.workboxes_workfull .workboxes iframe{
+  max-width: 17em;
 }
 
 
@@ -1487,9 +1492,9 @@ div.contact2{
     margin: 0em;
     margin-top: 3em;
     background-color: white;
-    padding: 0em 0em 0em 3.5em;
+    padding: 0em 0em 0em 3em;
     margin-bottom: 3em;
-    max-width: 80em;
+    max-width: 70em;
     border-radius: 15px
     border: 2px solid #000;
     outline: 1px solid #7d7d7d;
