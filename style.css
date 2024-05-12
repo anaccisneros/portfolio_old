@@ -303,7 +303,7 @@ main.home section.workcontainer{
   margin: 0em;
   margin-top: 2em;
   background-color: white;
-  padding: 0em;
+  padding-left: 1em;
   margin-bottom: 3em;
   max-width: 40em;
   border-radius: 15px
