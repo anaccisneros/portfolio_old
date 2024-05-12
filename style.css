@@ -305,7 +305,7 @@ main.home section.workcontainer{
   background-color: white;
   padding: 0em 1em 0em 1em;
   margin-bottom: 3em;
-  max-width: 21em;
+  max-width: 18em;
   border-radius: 25px
   border: 2px solid #000;
   outline: 1px solid #7d7d7d;
@@ -335,11 +335,11 @@ padding-bottom: 2em;
 
 
 .workboxes_workfull .workboxes img{
-  min-width: 17em;
+  min-width: 15em;
 }
 
 .workboxes_workfull .workboxes iframe{
-  max-width: 17em;
+  max-width: 15em;
 }
 
 
@@ -1144,7 +1144,7 @@ video{
 
 .img-box-about {
   box-sizing: content-box;
-  height: 8em; /* Adjusted height for the larger image size */
+  height: 7.5em; /* Adjusted height for the larger image size */
   margin-bottom: 2em;
   margin-right: 0em;
   margin-left: 1em;
