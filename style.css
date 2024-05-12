@@ -82,7 +82,7 @@ padding-bottom: 1em;
 main.workfull .workboxes{
 display: flex; /* Sets the initial size of each item to one-third of the container width minus spacing */
 margin-bottom: 2em; /* Adds space between rows */
-margin-right: 1em;
+margin-right: 0em;
 }
 
 div.container {
@@ -1907,7 +1907,7 @@ img.meettheteam{
   }
 
   .red-line {
-      height:5em;
+      height: 5.75em;
     }
 
   header{
