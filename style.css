@@ -563,26 +563,28 @@ aside.work h3{
 
 section.workboxes{
   background-color: black;
-  border-radius: 13px;
-  padding: 2em;
-  padding-top: 1em;
-  margin-top: 2em;
-  margin-bottom: 1em;
+  border-radius: 17px;
+  padding: 1em;
+  padding-bottom: 2em;
+  padding-top: 0.5em;
+  margin-top: 1em;
+  margin-bottom: 0em;
   max-height: auto;
   max-width: 21em;
 }
 
 .workboxes h3{
   padding-top: 0em;
+  padding-left: 0.5em;
   color: whitesmoke;
-  padding: 0.5em;
   margin: 0em;
 }
 
 .workboxes p{
   color: #7d7d7d;
   margin: 0em;
-  padding: 0.5em;
+  padding-top: 1em;
+  padding-left: 0.75em;
 }
 
 .workboxes a{
@@ -1905,7 +1907,6 @@ img.meettheteam{
   }
   
   .workboxes {
-      padding: 10px; /* Optional: Add padding for spacing */
       text-align: left; /* Center-align content */
   }
 
