@@ -52,7 +52,7 @@ margin-right: 2em;
 }
 
 .workboxes iframe{
-  min-width: 15em;
+  min-width: 13em;
 }
 
 .workboxes img{
@@ -306,7 +306,6 @@ main.home section.workcontainer{
   padding: 0em 1em 1em 1.5em;
   margin-bottom: 3em;
   max-width: 40em;
-  margin-right: 3em;
   border-radius: 15px
   border: 2px solid #000;
   outline: 1px solid #7d7d7d;
@@ -338,6 +337,7 @@ padding-bottom: 2em;
 .workboxes_workfull .workboxes img{
   min-width: 15em;
 }
+
 
 .skills {
   display: flex;
