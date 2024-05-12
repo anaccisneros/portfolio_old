@@ -305,11 +305,11 @@ main.home section.workcontainer{
   background-color: white;
   padding: 0em 1em 0em 1em;
   margin-bottom: 3em;
-  max-width: 25em;
+  max-width: 21em;
   border-radius: 25px
   border: 2px solid #000;
   outline: 1px solid #7d7d7d;
-  border-radius: 10px;
+  border-radius: 15px;
 }
 
 .workcontainer p{
