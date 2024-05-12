@@ -303,7 +303,7 @@ main.home section.workcontainer{
   margin: 0em;
   margin-top: 2em;
   background-color: white;
-  padding: 0em 1em 0em 1em;
+  padding: 0em 1em 0em 2em;
   margin-bottom: 3em;
   max-width: 20em;
   border-radius: 25px
@@ -330,7 +330,7 @@ section.workcontainer h3{
   flex: 1 1 calc(40% - 20px); /* Adjust the width of each box as needed */
   max-width: 18em;
 padding: 1em;
-padding-bottom: 2em;
+margin-top: 2em;
 }
 
 
@@ -564,11 +564,10 @@ aside.work h3{
 section.workboxes{
   background-color: black;
   border-radius: 17px;
-  padding: 1em;
   padding-bottom: 2em;
   padding-top: 1em;
   padding-right: 1em;
-  margin-top: 1em;
+  padding-left: 1em;
   margin-bottom: 0em;
   max-height: auto;
   max-width: 21em;
@@ -593,11 +592,6 @@ section.workboxes{
   padding: 0.5em;
   margin-top: 1em;
 }
-
-.workboxes video{
-max-height: 8em;
-}
-
 
 /* Dropdown Button */
 .dropbtn {
@@ -1430,6 +1424,13 @@ div.contact2{
 
 @media screen and (min-width: 60em){ 
 
+
+section.workboxes{
+  background-color: black;
+  border-radius: 17px;
+  padding: 2em;
+}
+
   .home{
     margin-left: 2.5em;
   }
@@ -1493,7 +1494,7 @@ div.contact2{
 
   main.home section.workcontainer{
     margin: 0em;
-    margin-top: 3em;
+    margin-top: 1em;
     background-color: white;
     padding: 0em 0em 0em 3em;
     margin-bottom: 3em;
