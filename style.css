@@ -505,7 +505,7 @@ a.learn-more-button2:hover {
 a.socialmedia {
   display: inline-block;
   padding: 5px 10px;
-  margin-bottom: 0.5em;
+  margin-bottom: 0em;
   font-family: "neue-haas-grotesk-display", sans-serif;
   font-weight: 500;
   font-style: normal;
@@ -542,6 +542,7 @@ section.asidetitle h3{
   text-align: left;
   color: #121212;
   margin: 0em;
+  margin-bottom: 0.5em;
   margin-top: 1em;
 }
 
